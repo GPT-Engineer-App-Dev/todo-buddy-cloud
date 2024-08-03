@@ -43,7 +43,7 @@ const Index = () => {
               onChange={(e) => setNewTodo(e.target.value)}
               onKeyPress={(e) => e.key === "Enter" && addTodo()}
             />
-            <Button onClick={addTodo} className="bg-green-500 hover:bg-green-600 text-white">
+            <Button onClick={addTodo} className="bg-purple-500 hover:bg-purple-600 text-white">
               <Plus className="h-4 w-4 mr-2" />
               Add
             </Button>
